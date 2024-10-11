@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cv-container">
+        <div class="header">
+            <h1>Nom Prénom</h1>
+            <p>Développeur Web | Contact : email@example.com | Téléphone : 06 00 00 00 00</p>
+        </div>
+
+        <div class="section">
+            <h2>Profil</h2>
+            <p>Je suis un développeur passionné avec une solide expérience en développement front-end et back-end. Capable de créer des applications web modernes et performantes.</p>
+        </div>
+
+        <div class="section">
+            <h2>Expérience Professionnelle</h2>
+            <div class="section-content experience">
+                <h3>Développeur Full Stack - Société X</h3>
+                <p class="date">Janvier 2022 - Présent</p>
+                <p>Conception et développement de plusieurs applications web, création d'API REST, intégration de systèmes et gestion des bases de données.</p>
+            </div>
+            <div class="section-content experience">
+                <h3>Développeur Front-end - Société Y</h3>
+                <p class="date">Septembre 2020 - Décembre 2021</p>
+                <p>Développement de sites web réactifs avec HTML, CSS et JavaScript. Utilisation de frameworks modernes tels que React et Vue.js.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Éducation</h2>
+            <div class="section-content education">
+                <h3>Master en Informatique - Université Z</h3>
+                <p class="date">2018 - 2020</p>
+            </div>
+            <div class="section-content education">
+                <h3>Licence en Informatique - Université Z</h3>
+                <p class="date">2015 - 2018</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Compétences</h2>
+            <div class="section-content skills">
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Vue.js</li>
+                    <li>Node.js, Express</li>
+                    <li>SQL, MongoDB</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Langues</h2>
+            <div class="section-content skills">
+                <ul>
+                    <li>Français : Langue maternelle</li>
+                    <li>Anglais : Courant</li>
+                    <li>Espagnol : Intermédiaire</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="toggle-button" onclick="toggleSection()">Afficher plus</div>
+        </div>
+
+        <div class="section hidden" id="extra-section">
+            <h2>Projets</h2>
+            <div class="section-content experience">
+                <h3>Projet X</h3>
+                <p>Développement d'une application de gestion des stocks pour une PME.</p>
+            </div>
+            <div class="section-content experience">
+                <h3>Projet Y</h3>
+                <p>Création d'un site e-commerce avec intégration d'une passerelle de paiement sécurisée.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
