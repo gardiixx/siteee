@@ -1,73 +1,197 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon CV</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="cv-container">
-        <div class="header">
-            <h1>Nom Prénom</h1>
-            <p>Développeur Web | Contact : email@example.com | Téléphone : 06 00 00 00 00</p>
-        </div>
-
-        <div class="section">
-            <h2>Profil</h2>
-            <p>Je suis un développeur passionné avec une solide expérience en développement front-end et back-end. Capable de créer des applications web modernes et performantes.</p>
-        </div>
-
-        <div class="section">
-            <h2>Expérience Professionnelle</h2>
-            <div class="section-content experience">
-                <h3>Développeur Full Stack - Société X</h3>
-                <p class="date">Janvier 2022 - Présent</p>
-                <p>Conception et développement de plusieurs applications web, création d'API REST, intégration de systèmes et gestion des bases de données.</p>
+    <head>
+        <link rel="icon" href="image/cv-icon-11.ico">
+        <title>CV de Barnabé Mathis </title>
+        <meta charset="utf-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>CV de Barnabé Mathis</h1>
+        </header>
+        
+        <section>
+            <div class="photo">
+                <img src="image/th.jpg" alt="Ma photo de profil">
             </div>
-            <div class="section-content experience">
-                <h3>Développeur Front-end - Société Y</h3>
-                <p class="date">Septembre 2020 - Décembre 2021</p>
-                <p>Développement de sites web réactifs avec HTML, CSS et JavaScript. Utilisation de frameworks modernes tels que React et Vue.js.</p>
+            <div class="prez">
+                <h2>Qui suis-je ?</h2>
+                <p>Diplômé du BAC au lycée Condorcet Saint-Quentin en étude de Cybersécurité, Informatique, electronique </p>
+                <a href="#" download>Télécharger mon CV</a>
             </div>
-        </div>
-
-        <div class="section">
-            <h2>Éducation</h2>
-            <div class="section-content education">
-                <h3>Master en Informatique - Université Z</h3>
-                <p class="date">2018 - 2020</p>
+            <div class="contact">
+                <h2>Informations de contact</h2>
+                <div class="contact-flex">
+                    <p>Nom : </p>
+                    <p>Barnabé Mathis</p>
+                </div>
+                <div class="contact-flex">
+                    <p>Adresse : </p>
+                    <p>382 Rue Olivier Deguise</p>
+                </div>
+                <div class="contact-flex">
+                    <p>Téléphone :</p>
+                    <p>07 49 14 95 16</p>
+                </div>
+                <div class="contact-flex">
+                    <p>Mail : </p>
+                    <p><a href="mailto:mathisbarnabe.pro@gmail.com">mathisbarnabe.pro@gmail.com</a></p>
+                </div>
+                <div class="contact-flex">
+                    <p>Permis :</p>
+                    <p>B</p>
+                </div>
+                <div class="social">
+                    <a href="#"><img src="https://www.facebook.com/mathis.barnabe.3/" alt="Logo Fb"></a>
+                    <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/tw.png" alt="Logo Tw"></a>
+                    <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/lk.png" alt="Logo Lk"></a>
+                    <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/yt.png" alt="Logo Yt"></a>
+                </div>
             </div>
-            <div class="section-content education">
-                <h3>Licence en Informatique - Université Z</h3>
-                <p class="date">2015 - 2018</p>
+        </section>
+        
+        <section>
+            <h2>Expériences professionnelles</h2>
+            <div class="exp">
+                <div class="exp-logo">
+                    <a href="#"><img src="image/yamahaa.png" alt="Logo de Yamaha"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Job d'été</h3>
+                    <h4>Yamaha</h4>
+                    <h4>5 Aout 2024 - 30 Aout 2024</h4>
+                </div>
+                <div class="exp-desc">
+                    <p>Employé durant l'été, charger de s'occuper de mission donnée durant une courte période</p>
+                </div>
             </div>
-        </div>
-
-        <div class="section">
+            <div class="exp">
+                <div class="exp-logo">
+                    <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/legalplace.png" alt="Logo de LegalPlace"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Responsable SEO et contenu</h3>
+                    <h4>LegalPlace</h4>
+                    <h4>Novembre 2017 - Décembre 2018</h4>
+                </div>
+                <div class="exp-desc">
+                    <p>Responsable SEO du site et plus globalement de la stratégie
+                    de production de contenu : recherche de mots clefs, réécriture,
+                    contrôle qualité du contenu publié, etc.</p>
+                </div>
+            </div>
+            <div class="exp">
+                <div class="exp-logo">
+                    <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/prestashop.png" alt="Logo de PrestaShop"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Stage marketing</h3>
+                    <h4>PrestaShop</h4>
+                    <h4>Mai 2013 - Novembre 2013</h4>
+                </div>
+                <div class="exp-desc">
+                    <p>Contrôle de la qualité et de l'intégrité des modules proposés,
+                    modernisation de la marketplace & passerelle avec la communauté.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Formation</h2>
+            <div class="exp">
+                <div class="exp-logo">
+                    <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/edhec.png" alt="Logo EDHEC"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>EDHEC Programme Grande Ecole</h3>
+                    <h4>2011 - 2015</h4>
+                </div>
+                <div class="exp-desc">
+                    <p>blablabla</p>
+                </div>
+            </div>
+            <div class="exp">
+                <div class="exp-logo">
+                    <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/dd.png" alt="Logo Dumont"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Prépa ECS option Maths</h3>
+                    <h4>2009 - 2011</h4>
+                </div>
+                <div class="exp-desc">
+                    <p>blablabla</p>
+                </div>
+            </div>
+            <div class="exp">
+                <div class="exp-logo">
+                    <a href=""><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/dd.png" alt=""></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Bac S option Maths</h3>
+                    <h4>2005 - 2009</h4>
+                </div>
+                <div class="exp-desc">
+                    <p>blablabla</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
             <h2>Compétences</h2>
-            <div class="section-content skills">
-                <ul>
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>React, Vue.js</li>
-                    <li>Node.js, Express</li>
-                    <li>SQL, MongoDB</li>
-                </ul>
+            <h3 class="h3gauche">Professionnelles</h3>
+            <div class="comp">
+                <p>HTML / CSS</p>
+                <div class="conteneur-barre"><span class="barre c100"></span></div>
             </div>
-        </div>
-
-        <div class="section">
-            <h2>Langues</h2>
-            <div class="section-content skills">
-                <ul>
-                    <li>Français : Langue maternelle</li>
-                    <li>Anglais : Courant</li>
-                    <li>Espagnol : Intermédiaire</li>
-                </ul>
+            <div class="comp">
+                <p>PHP / MySQL</p>
+                <div class="conteneur-barre"><span class="barre c95"></span></div>
             </div>
-        </div>
-
+            <div class="comp">
+                <p>JavaScript</p>
+                <div class="conteneur-barre"><span class="barre c90"></span></div>
+            </div>
+            <div class="comp">
+                <p>SEO</p>
+                <div class="conteneur-barre"><span class="barre c100"></span></div>
+            </div>
+            <h3 class="h3gauche">Personnelles</h3>
+            <div class="comp2">
+                <p>Créativité</p>
+                <p>90%</p>
+                <div class="conteneur-barre2"><span class="barre c90"></span></div>
+            </div>
+            <div class="comp2">
+                <p>Adaptation</p>
+                <p>85%</p>
+                <div class="conteneur-barre2"><span class="barre c85"></span></div>
+            </div>
+            <div class="comp2">
+                <p>Sérieux</p>
+                <p>95%</p>
+                <div class="conteneur-barre2"><span class="barre c95"></span></div>
+            </div>
+            <div class="comp2">
+                <p>Pédagogie</p>
+                <p>95%</p>
+                <div class="conteneur-barre2"><span class="barre c95"></span></div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Centres d'intérêt</h2>
+            <figure class="interet">
+                <img src="" alt="Trail">
+                <figcaption>Football</figcaption>
+            </figure>
+            <figure class="interet">
+                <img src="" alt="Gaming">
+                <figcaption>Jeux vidéos</figcaption>
+            </figure>
+        </section>
         <div class="section">
             <div class="toggle-button" onclick="toggleSection()">Afficher plus</div>
         </div>
@@ -75,17 +199,21 @@
         <div class="section hidden" id="extra-section">
             <h2>Projets</h2>
             <div class="section-content experience">
-                <h3>Projet X</h3>
-                <p>Développement d'une application de gestion des stocks pour une PME.</p>
+                <h3>Gendarme</h3>
+                <p>Concour de gendarmerie en cours</p>
             </div>
             <div class="section-content experience">
                 <h3>Projet Y</h3>
                 <p>Création d'un site e-commerce avec intégration d'une passerelle de paiement sécurisée.</p>
             </div>
         </div>
-    </div>
-
-    <script src="script.js"></script>
-    
-</body>
-</html>
+        
+        <footer>
+            <p><a href="https://www.pierre-giraud.com">©Pierre Giraud</a> 2020</p>
+            <p>Reproduction à des fins commerciales interdite.</p>
+            <p>Merci de respecter le travail des auteurs en faisant un lien vers
+            le contenu original !</p>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
